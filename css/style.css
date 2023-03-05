@@ -1,0 +1,56 @@
+.navbar-brand{
+    color: aliceblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.Game-Container{
+    display: flex;
+   margin-top: 50px;
+    justify-content: center;
+}
+.Container{
+    display: grid;
+    grid-template-rows: repeat(3,10vh);
+    grid-template-columns: repeat(3,10vh);
+}
+.box{
+    border: 2px solid black;
+    font-size:3vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:hover{
+    background-color: aquamarine;
+}
+#reset{
+    border-radius: 5px;
+    font-weight:bold;
+    width:70px;
+}
+.gameInfo{
+    padding: 0,34px;
+    margin-left:50px;
+}
+.imgbox img{
+     width:0;
+     transition: width 1s ease-in-out;
+}
+.br-0{
+ border-right: 0;
+}
+.bl-0{
+ border-left: 0;
+}
+.bt-0{
+ border-top: 0;
+}
+.bb-0{
+  border-bottom: 0;
+}
+.info{
+    color:black;
+}

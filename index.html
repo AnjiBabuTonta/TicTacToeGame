@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>TicTacToe</title>
+</head>
+<body>
+    <nav class="navbar bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h4 h1">MyTicTacToe.com</span>
+        </div>
+      </nav>
+    <div class="Game-Container">
+        <div class="Container">
+            <div class="box bt-0 bl-0"><span class="textbox"></span></div>
+            <div class="box bt-0"><span class="textbox"></span></div>
+            <div class="box bt-0 br-0"><span class="textbox"></span></div>
+            <div class="box bl-0"><span class="textbox"></span></div>
+            <div class="box"><span class="textbox"></span></div>
+            <div class="box br-0"><span class="textbox"></span></div>
+            <div class="box bl-0 bb-0"><span class="textbox"></span></div>
+            <div class="box bb-0"><span class="textbox"></span></div>
+            <div class="box br-0 bb-0"><span class="textbox"></span></div>    
+        </div>
+        <div class="gameInfo">
+            <h1>Welcome to my MyTicTacToe Game</h1>
+            <div>
+                <span class="info h5">Turn for X</span><br><br>
+                <button id="reset">Reset</button>
+             <br><br>
+            </div>
+            <div class="imgbox">
+                <img src="../img/excited.gif" alt="">
+                <img src="../img/tie.gif" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>
